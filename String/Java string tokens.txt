@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+        scan.close();
+        if(s.trim().length()>0){
+             String[] str=s.trim().split("[!,'?._@\\s]+");
+        System.out.println(str.length);
+        for(String stu:str){
+            System.out.println(stu);
+        }
+            
+        }
+        else{
+      System.out.println(0);
+        // Write your code here.*/
+        
+    }}
+}
